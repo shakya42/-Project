@@ -1,0 +1,19 @@
+1. Find the top 10 records of data set.
+
+select * from clinical_trial limit 10;
+
+2. Find the last top 10 records of data set.
+
+select *from clinical_rial limit order by asc limit 10;
+
+3. Find the total number of persons to die.
+
+select count(*)from clinical_trial where death is not null;
+
+4. find the persons of total number  whose test is done in data set.
+
+select count(*) from persons where test_done ='yes';
+
+5. To find the list of persons who were present between January 10-01-2019, and  11-06-01 2020.
+
+select * from clinical_trial where date between '2019-01-10' and '2020-04-03';
